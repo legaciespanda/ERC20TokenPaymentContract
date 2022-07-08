@@ -8,7 +8,7 @@ contract ECommerce {
     address private owner;
 
     constructor() public {
-        token = IERC20(0x62D62D73C27E6240165ee3A97C6d1532c0dD0b42);
+        token = IERC20(0x62D62D73C27E6240165ee3A97C6d1532c0dD0b42); //change this to your contract address
         // this token address is LINK token deployed on Rinkeby testnet
        // You can use any other ERC20 token smart contarct address here
         owner = msg.sender;
